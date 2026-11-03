@@ -1,0 +1,17 @@
+###
+GET http://localhost:5104/api/Users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQXBpVXNlciIsImV4cCI6MTc5Mzc0NzcxOCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.ALexDv7ERARiHe_lw9h43BHk2Wcer43hm5ehyoEjJH8
+
+###
+POST http://localhost:5104/api/Auth/token
+
+###
+POST http://localhost:5104/api/Users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQXBpVXNlciIsImV4cCI6MTc5Mzc0NzcxOCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.ALexDv7ERARiHe_lw9h43BHk2Wcer43hm5ehyoEjJH8
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com"
+}

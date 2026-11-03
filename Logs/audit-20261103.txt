@@ -1,0 +1,878 @@
+2026-11-03 17:03:33.338 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:03:33.942 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:03:33.945 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:03:33.951 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:03:33.955 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:03:49.509 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/ - null null
+2026-11-03 17:03:49.555 -05:00 [INF] Incoming Request: GET /
+2026-11-03 17:03:49.560 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:03:49.635 -05:00 [INF] Outgoing Response: 404 
+2026-11-03 17:03:49.642 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/ - 404 null null 133.5343ms
+2026-11-03 17:03:49.646 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5104/, Response status code: 404
+2026-11-03 17:03:53.617 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/index.html - null null
+2026-11-03 17:03:53.673 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/index.html - 304 null null 57.0235ms
+2026-11-03 17:03:53.681 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui.css - null null
+2026-11-03 17:03:53.687 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-bundle.js - null null
+2026-11-03 17:03:53.687 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/index.css - null null
+2026-11-03 17:03:53.688 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-standalone-preset.js - null null
+2026-11-03 17:03:53.688 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/index.js - null null
+2026-11-03 17:03:53.694 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui.css - 304 null null 12.4956ms
+2026-11-03 17:03:53.694 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/index.css - 304 null null 6.5417ms
+2026-11-03 17:03:53.705 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-standalone-preset.js - 304 null null 16.8238ms
+2026-11-03 17:03:53.705 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/index.js - 304 null null 17.2595ms
+2026-11-03 17:03:53.707 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-bundle.js - 304 null null 19.8329ms
+2026-11-03 17:03:53.771 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/v1/swagger.json - null null
+2026-11-03 17:03:53.863 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.242ms
+2026-11-03 17:04:00.345 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:04:00.350 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:04:00.354 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:04:00.368 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:04:00.376 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:04:00.395 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 22.6503ms
+2026-11-03 17:04:00.397 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:04:00.398 -05:00 [INF] Outgoing Response: 200 [{"id":1,"firstName":"John","lastName":"Doe","email":"john.doe@example.com"}]
+2026-11-03 17:04:00.399 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 54.5982ms
+2026-11-03 17:06:03.881 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:06:03.885 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:06:03.890 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:06:03.891 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:06:03.894 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:06:03.896 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 2.7743ms
+2026-11-03 17:06:03.897 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:06:03.899 -05:00 [INF] Outgoing Response: 200 [{"id":1,"firstName":"John","lastName":"Doe","email":"john.doe@example.com"}]
+2026-11-03 17:06:03.900 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 19.5874ms
+2026-11-03 17:09:38.352 -05:00 [INF] Application is shutting down...
+2026-11-03 17:09:45.304 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:09:45.480 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:09:45.483 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:09:45.484 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:09:45.486 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:09:52.767 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:09:52.811 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:09:52.816 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:09:52.837 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:09:52.848 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:09:52.854 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:09:52.895 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 40.7924ms
+2026-11-03 17:09:52.899 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:09:52.903 -05:00 [INF] Outgoing Response: 200 [{"id":1,"firstName":"John","lastName":"Doe","email":"john.doe@example.com"}]
+2026-11-03 17:09:52.914 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 148.4268ms
+2026-11-03 17:12:44.784 -05:00 [INF] Application is shutting down...
+2026-11-03 17:12:56.561 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:12:56.707 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:12:56.710 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:12:56.712 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:12:56.713 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:13:02.187 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Auth/token - null 0
+2026-11-03 17:13:02.229 -05:00 [INF] Incoming Request: POST /api/Auth/token
+2026-11-03 17:13:02.234 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:13:02.260 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:13:02.265 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:13:02.267 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:13:02.274 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Auth/token - 401 0 null 88.0975ms
+2026-11-03 17:13:21.493 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:13:21.502 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:13:21.508 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:13:21.510 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:13:21.510 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:13:21.512 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 18.9056ms
+2026-11-03 17:13:32.549 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:13:32.551 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:13:32.553 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:13:32.555 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:13:32.556 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:13:32.557 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 8.4514ms
+2026-11-03 17:13:34.550 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:13:34.554 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:13:34.555 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:13:34.556 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:13:34.558 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:13:34.559 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 8.4066ms
+2026-11-03 17:14:39.084 -05:00 [INF] Application is shutting down...
+2026-11-03 17:14:51.569 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:14:51.728 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:14:51.731 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:14:51.733 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:14:51.734 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:15:05.441 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Auth/token - null null
+2026-11-03 17:15:05.497 -05:00 [INF] Incoming Request: GET /api/Auth/token
+2026-11-03 17:15:05.504 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:15:05.536 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:15:05.541 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:15:05.542 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:15:05.551 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Auth/token - 401 null null 112.5113ms
+2026-11-03 17:15:18.489 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Auth/token - null 0
+2026-11-03 17:15:18.494 -05:00 [INF] Incoming Request: POST /api/Auth/token
+2026-11-03 17:15:18.499 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.AuthController.GenerateToken (UserManagementAPI)'
+2026-11-03 17:15:18.508 -05:00 [INF] Route matched with {action = "GenerateToken", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateToken() on controller UserManagementAPI.Controllers.AuthController (UserManagementAPI).
+2026-11-03 17:15:18.565 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-11-03 17:15:18.589 -05:00 [INF] Executed action UserManagementAPI.Controllers.AuthController.GenerateToken (UserManagementAPI) in 77.1166ms
+2026-11-03 17:15:18.592 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.AuthController.GenerateToken (UserManagementAPI)'
+2026-11-03 17:15:18.593 -05:00 [INF] Outgoing Response: 200 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQXBpVXNlciIsImV4cCI6MTc5Mzc0NzcxOCwiaXNzIjoiVXNlck1hbmFnZW1lbnRBUEkiLCJhdWQiOiJVc2VyTWFuYWdlbWVudEFQSVVzZXJzIn0.ALexDv7ERARiHe_lw9h43BHk2Wcer43hm5ehyoEjJH8"}
+2026-11-03 17:15:18.594 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Auth/token - 200 null application/json; charset=utf-8 105.4002ms
+2026-11-03 17:15:41.344 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:15:41.346 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:15:41.353 -05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-11-03 17:15:41.362 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-11-03 17:15:41.364 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:15:41.365 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:15:41.366 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:15:41.367 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 22.9319ms
+2026-11-03 17:16:45.404 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:16:45.407 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:16:45.408 -05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-11-03 17:16:45.411 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-11-03 17:16:45.413 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:16:45.414 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:16:45.415 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:16:45.416 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 12.6526ms
+2026-11-03 17:16:47.224 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:16:47.227 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:16:47.229 -05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-11-03 17:16:47.231 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-11-03 17:16:47.233 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:16:47.234 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:16:47.235 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:16:47.237 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 12.4653ms
+2026-11-03 17:18:00.450 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:18:00.453 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:18:00.489 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:18:00.491 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:18:00.494 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:18:00.501 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 8.6492ms
+2026-11-03 17:18:00.503 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:18:00.504 -05:00 [INF] Outgoing Response: 200 [{"id":1,"firstName":"John","lastName":"Doe","email":"john.doe@example.com"}]
+2026-11-03 17:18:00.505 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 54.9064ms
+2026-11-03 17:18:58.390 -05:00 [INF] Application is shutting down...
+2026-11-03 17:21:07.009 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:21:07.519 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:21:07.523 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:21:07.524 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:21:07.525 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:21:35.471 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:21:35.499 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:21:35.503 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:21:35.616 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:21:35.623 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:21:35.628 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:21:35.646 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 20.1312ms
+2026-11-03 17:21:35.648 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:21:35.649 -05:00 [INF] Outgoing Response: 200 [{"id":1,"firstName":"John","lastName":"Doe","email":"john.doe@example.com"}]
+2026-11-03 17:21:35.653 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 182.58ms
+2026-11-03 17:21:47.713 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 104
+2026-11-03 17:21:47.716 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:21:47.719 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:21:47.723 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:21:47.724 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:21:47.725 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 401 0 null 11.726ms
+2026-11-03 17:22:03.026 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 104
+2026-11-03 17:22:03.028 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:22:03.032 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:22:03.037 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:22:03.056 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 17.2452ms
+2026-11-03 17:22:03.057 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:22:03.068 -05:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](PipeWriter body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Program.cs:line 77
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-11-03 17:22:03.099 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-11-03 17:22:03.108 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:22:03.111 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:22:03.114 -05:00 [ERR] Connection id "0HNPPV396ELEJ", Request id "0HNPPV396ELEJ:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:22:03.118 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 92.6559ms
+2026-11-03 17:22:50.373 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:22:50.378 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:22:50.380 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:22:50.382 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:22:50.386 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 1.8025ms
+2026-11-03 17:22:50.388 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:22:50.392 -05:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](PipeWriter body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Program.cs:line 77
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-11-03 17:22:50.398 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-11-03 17:22:50.403 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:22:50.411 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:22:50.416 -05:00 [ERR] Connection id "0HNPPV396ELEK", Request id "0HNPPV396ELEK:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:22:50.427 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 54.0924ms
+2026-11-03 17:22:53.341 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:22:53.344 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:22:53.345 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:22:53.347 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:22:53.349 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 0.7187ms
+2026-11-03 17:22:53.353 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:22:53.356 -05:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](PipeWriter body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Program.cs:line 77
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-11-03 17:22:53.364 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-11-03 17:22:53.372 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:22:53.377 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:22:53.381 -05:00 [ERR] Connection id "0HNPPV396ELEL", Request id "0HNPPV396ELEL:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:22:53.389 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 48.6985ms
+2026-11-03 17:23:23.354 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:23:23.365 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:23:23.367 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:23:23.369 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:23:23.370 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:23:23.376 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 null null 21.658ms
+2026-11-03 17:23:34.851 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:23:34.854 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:23:34.855 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:23:34.856 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:23:34.857 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:23:34.858 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 null null 6.5187ms
+2026-11-03 17:23:40.423 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/index.html - null null
+2026-11-03 17:23:40.464 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/index.html - 304 null null 41.354ms
+2026-11-03 17:23:40.473 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui.css - null null
+2026-11-03 17:23:40.478 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/index.css - null null
+2026-11-03 17:23:40.478 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-bundle.js - null null
+2026-11-03 17:23:40.478 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-standalone-preset.js - null null
+2026-11-03 17:23:40.478 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/index.js - null null
+2026-11-03 17:23:40.483 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/index.css - 304 null null 5.5285ms
+2026-11-03 17:23:40.483 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui.css - 304 null null 10.6028ms
+2026-11-03 17:23:40.494 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-standalone-preset.js - 304 null null 15.8238ms
+2026-11-03 17:23:40.495 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/index.js - 304 null null 17.0122ms
+2026-11-03 17:23:40.497 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/swagger-ui-bundle.js - 304 null null 19.5693ms
+2026-11-03 17:23:40.556 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/swagger/v1/swagger.json - null null
+2026-11-03 17:23:40.643 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.2382ms
+2026-11-03 17:23:55.619 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:23:55.622 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:23:55.623 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-11-03 17:23:55.624 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-11-03 17:23:55.624 -05:00 [INF] Outgoing Response: 401 
+2026-11-03 17:23:55.626 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 401 0 null 6.6473ms
+2026-11-03 17:25:01.171 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:25:01.174 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:25:01.176 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:25:01.178 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:25:01.181 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 0.8202ms
+2026-11-03 17:25:01.183 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:25:01.185 -05:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](PipeWriter body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Program.cs:line 77
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-11-03 17:25:01.189 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-11-03 17:25:01.194 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:25:01.202 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:25:01.205 -05:00 [ERR] Connection id "0HNPPV396ELER", Request id "0HNPPV396ELER:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:25:01.212 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 41.4454ms
+2026-11-03 17:25:02.644 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:25:02.647 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:25:02.650 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:25:02.651 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:25:02.655 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 0.6026ms
+2026-11-03 17:25:02.660 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:25:02.662 -05:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](PipeWriter body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Program.cs:line 77
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-11-03 17:25:02.669 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-11-03 17:25:02.672 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:25:02.676 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:25:02.678 -05:00 [ERR] Connection id "0HNPPV396ELES", Request id "0HNPPV396ELES:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:25:02.683 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 39.0554ms
+2026-11-03 17:25:44.835 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:25:44.838 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:25:44.840 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:25:44.841 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:25:44.843 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 0.5805ms
+2026-11-03 17:25:44.844 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:25:44.846 -05:00 [ERR] An exception was thrown attempting to execute the error handler.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.WriteAsJsonAsyncSlow[TValue](PipeWriter body, TValue value, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Program.<>c.<<<Main>$>b__0_4>d.MoveNext() in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Program.cs:line 77
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+2026-11-03 17:25:44.850 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-11-03 17:25:44.854 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:25:44.859 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:25:44.862 -05:00 [ERR] Connection id "0HNPPV396ELET", Request id "0HNPPV396ELET:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:25:44.867 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 31.9752ms
+2026-11-03 17:29:58.660 -05:00 [INF] Application is shutting down...
+2026-11-03 17:30:08.121 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:30:08.260 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:30:08.263 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:30:08.264 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:30:08.266 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:30:14.183 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:30:14.211 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:30:14.214 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:30:14.270 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:30:14.276 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:30:14.281 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:30:14.301 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 21.3493ms
+2026-11-03 17:30:14.303 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:30:14.304 -05:00 [INF] Outgoing Response: 200 [{"id":1,"firstName":"John","lastName":"Doe","email":"john.doe@example.com"}]
+2026-11-03 17:30:14.307 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 125.3561ms
+2026-11-03 17:30:18.582 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:30:18.588 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:30:18.596 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:30:18.605 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:30:18.631 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 22.9341ms
+2026-11-03 17:30:18.634 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:30:18.647 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:30:18.690 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-11-03 17:30:18.694 -05:00 [ERR] Connection id "0HNPPV83P8T8M", Request id "0HNPPV83P8T8M:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.HandleException(HttpContext context, HttpStatusCode statusCode, String message) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 51
+   at UserManagementAPI.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI\Middleware\GlobalExceptionMiddleware.cs:line 27
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-11-03 17:30:18.707 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 500 0 null 125.4243ms
+2026-11-03 17:31:09.504 -05:00 [INF] Application is shutting down...
+2026-11-03 17:31:17.934 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:31:18.069 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:31:18.072 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:31:18.073 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:31:18.074 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:31:20.420 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:31:20.467 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:31:20.470 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:31:20.575 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:31:20.586 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:31:20.594 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:31:20.622 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 31.564ms
+2026-11-03 17:31:20.625 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:31:20.626 -05:00 [INF] Outgoing Response: 200
+2026-11-03 17:31:20.627 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 208.9782ms
+2026-11-03 17:31:22.828 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:31:22.833 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:31:22.838 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:31:22.846 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:31:22.868 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 20.0175ms
+2026-11-03 17:31:22.871 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:31:22.879 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 409 null application/json 51.6631ms
+2026-11-03 17:31:33.874 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 92
+2026-11-03 17:31:33.877 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:31:33.881 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:31:33.883 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:31:33.886 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2026-11-03 17:31:33.896 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 11.6868ms
+2026-11-03 17:31:33.898 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:31:33.899 -05:00 [INF] Outgoing Response: 201
+2026-11-03 17:31:33.899 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 201 null application/json; charset=utf-8 25.1072ms
+2026-11-03 17:31:36.944 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:31:36.947 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:31:36.950 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:31:36.951 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:31:36.953 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:31:36.955 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 1.9043ms
+2026-11-03 17:31:36.956 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:31:36.957 -05:00 [INF] Outgoing Response: 200
+2026-11-03 17:31:36.958 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 13.6148ms
+2026-11-03 17:32:35.040 -05:00 [INF] Application is shutting down...
+2026-11-03 17:32:44.469 -05:00 [INF] User profile is available. Using 'C:\Users\Krishnapal_Panwar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-11-03 17:32:44.968 -05:00 [INF] Now listening on: http://localhost:5104
+2026-11-03 17:32:44.971 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-11-03 17:32:44.972 -05:00 [INF] Hosting environment: Development
+2026-11-03 17:32:44.972 -05:00 [INF] Content root path: C:\Users\Krishnapal_Panwar\source\localProjects\UserManagementAPI
+2026-11-03 17:32:46.338 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5104/api/Users - null null
+2026-11-03 17:32:46.424 -05:00 [INF] Incoming Request: GET /api/Users
+2026-11-03 17:32:46.427 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-11-03 17:32:46.428 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:32:46.435 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:32:46.440 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-11-03 17:32:46.458 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 19.9703ms
+2026-11-03 17:32:46.460 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2026-11-03 17:32:46.461 -05:00 [INF] Outgoing Response: 200
+2026-11-03 17:32:46.463 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5104/api/Users - 200 null application/json; charset=utf-8 125.7215ms
+2026-11-03 17:32:50.792 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5104/api/Users - application/json 91
+2026-11-03 17:32:50.798 -05:00 [INF] Incoming Request: POST /api/Users
+2026-11-03 17:32:50.800 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:32:50.805 -05:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2026-11-03 17:32:50.824 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI) in 16.7983ms
+2026-11-03 17:32:50.825 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.CreateUser (UserManagementAPI)'
+2026-11-03 17:32:50.830 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5104/api/Users - 409 null application/json 38.4025ms
+2026-11-03 17:32:55.330 -05:00 [INF] Application is shutting down...
